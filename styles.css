@@ -38,6 +38,22 @@ ul{
     padding-right: 1%;
     padding-bottom: 5px;
     border-bottom: 1px solid #CACACA;
+    position: relative;
+}
+
+.octocat > a::after{
+    content: "";
+    height: 0px;
+    width: 0px;
+
+    border-top: solid 10px #CACACA;
+
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+
+    position:absolute;
+    top:89%;
+    right: 5%;
 }
 
 .image-number{
